@@ -1,0 +1,86 @@
+Skip to content
+Why GitHub? 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+
+Sign in
+Sign up
+jupyter
+/
+notebook
+3227.1k3k
+ Code
+ Issues 1,799
+ Pull requests 100 Actions
+ Projects 8
+ Security 0
+ Insights
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+
+notebook/.gitignore
+@takluyver takluyver Merge pull request #4740 from uclixnjupyternbaccessibility/issue-3987
+f48caac on 11 Jul 2019
+@minrk@takluyver@jdfreder@willingc@joshuazeltser@fperez@ellisonbg@Carreau@blink1073@rgbkrk@mattvonrocketstein@msabramo@gnestor@JCEmmons@bfroehle@cowlicks@jianzi123
+44 lines (42 sloc)  618 Bytes
+  
+MANIFEST
+build
+dist
+_build
+docs/man/*.gz
+docs/source/api/generated
+docs/source/config.rst
+docs/gh-pages
+notebook/i18n/*/LC_MESSAGES/*.mo
+notebook/i18n/*/LC_MESSAGES/nbjs.json
+notebook/static/components
+notebook/static/style/*.min.css*
+notebook/static/*/js/built/
+notebook/static/*/built/
+notebook/static/built/
+notebook/static/*/js/main.min.js*
+notebook/static/lab/*bundle.js
+node_modules
+*.py[co]
+__pycache__
+*.egg-info
+*~
+*.bak
+.ipynb_checkpoints
+.tox
+.DS_Store
+\#*#
+.#*
+.coverage
+.pytest_cache
+src
+
+*.swp
+*.map
+.idea/
+Read the Docs
+config.rst
+*.iml
+/.project
+/.pydevproject
+
+package-lock.json
+geckodriver.log
+*.iml
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
